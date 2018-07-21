@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="eBayTest">
+  <test name="eBayHappyPath">
+  <parameter name="deviceUDID" value="55e9b522"/>
+  <parameter name="platformVersion" value="6.0.1"/>
+  <parameter name="appName_with_apk_extension" value="eBay.apk"/>
+    <classes>
+      <class name="com.eBay.util.DriverTestCase"/>
+      <class name="com.eBay.TestScripts.TestScript">
+      <methods>
+      <include name="homePage_TestCase_001"></include>
+      <include name="searchResultPage_TestCase_002"></include>
+      <include name="productDetailsPage_TestCase_003"></include>
+      <include name="signInPage_TestCase_004"></include>
+      </methods>
+      </class>
+      </classes>
+  </test> <!-- eBayHappyPath -->
+</suite> <!-- eBayTest -->
+
+
+
