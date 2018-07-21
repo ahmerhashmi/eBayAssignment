@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+
+    
+ 	<homePage>
+    	<companyLogo><![CDATA[id=com.ebay.mobile:id/search_box]]></companyLogo>
+    	<progressIcon><![CDATA[id=com.ebay.mobile:id/translucent_progress_bar]]></progressIcon>	
+    	<searchBoxBeforeClicked><![CDATA[id=com.ebay.mobile:id/search_box]]></searchBoxBeforeClicked>
+    	<searchBoxAfterClicked><![CDATA[id=com.ebay.mobile:id/search_src_text]]></searchBoxAfterClicked>
+    	<autoSuggestion><![CDATA[id=com.ebay.mobile:id/text]]></autoSuggestion>
+ 	</homePage>
+    
+	<searchResultPage>	
+		<searchedItemImages><![CDATA[id=com.ebay.mobile:id/image]]></searchedItemImages>
+		<popup><![CDATA[id=com.ebay.mobile:id/text_slot_1]]></popup>
+		<clickedOnsearchedItem><![CDATA[class=android.widget.TextView]]></clickedOnsearchedItem>
+		<sortByButton><![CDATA[id=com.ebay.mobile:id/button_sort]]></sortByButton>
+		<subFilterButtons><![CDATA[id=com.ebay.mobile:id/button_filter_subelement]]></subFilterButtons>
+		<sortedItems><![CDATA[id=com.ebay.mobile:id/textview_item_price]]></sortedItems>
+		<itemPanel><![CDATA[id=com.ebay.mobile:id/cell_collection_item]]></itemPanel>
+		<itemTitle><![CDATA[id=com.ebay.mobile:id/textview_item_title]]></itemTitle>
+		
+	</searchResultPage>	
+   		
+	<ProductDetailPage>		
+		<variationLayout><![CDATA[id=com.ebay.mobile:id/variations_layout]]></variationLayout>
+		<variationOption><![CDATA[id=com.ebay.mobile:id/textview_selection_option_title]]></variationOption>
+		<itemColorField><![CDATA[id=com.ebay.mobile:id/text]]></itemColorField>
+		<selectionDropDown><![CDATA[id=com.ebay.mobile:id/no_selection_text]]></selectionDropDown>
+		<productImage><![CDATA[id=com.ebay.mobile:id/imageview_image]]></productImage>
+		<ButItNowButton><![CDATA[id=com.ebay.mobile:id/button_bin]]></ButItNowButton>
+		
+		
+		
+	</ProductDetailPage>
+
+</Locators>
