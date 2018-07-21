@@ -1,0 +1,15 @@
+
+*****************************************************************************
+Jul 21,2018 19:01:03 [info]   Execution Started of Test Class com.eBay.TestScripts.TestScript and Test method testCaseId_001
+*****************************************************************************
+Jul 21,2018 19:01:03 [info]  Screen orientation: LANDSCAPE
+Jul 21,2018 19:02:24 [info]  Successfully land on application home page..
+Jul 21,2018 19:02:25 [info]  Clicked on search field.
+Jul 21,2018 19:02:37 [info]  watches search keyword entered
+Jul 21,2018 19:02:49 [info]  Successfully landed on search result page.
+Jul 21,2018 19:02:52 [info]  Lowest Price + Shipping subfilter option.
+Jul 21,2018 19:02:55 [info]  ?99.00 item got clicked
+Jul 21,2018 19:02:58 [info]  Successfully landed on PDP
+Jul 21,2018 19:03:05 [info]  Clicked on BuyIt Now button
+Jul 21,2018 19:03:06 [info]  Switch to Landscape view
+Jul 21,2018 19:03:07 [info]  Switch to Portrait view
